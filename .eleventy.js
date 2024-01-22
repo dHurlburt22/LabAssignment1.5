@@ -1,8 +1,9 @@
 module.exports = function(eleventyConfig) {
   
-    eleventyConfig.addPassthroughCopy("img");
+    eleventyConfig.addPassthroughCopy("images/");
 
     eleventyConfig.addPassthroughCopy("style.css");
 
+    eleventyConfig.addPassthroughCopy("moon.html");
 
   };
