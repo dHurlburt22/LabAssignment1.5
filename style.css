@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    color:white;
+    font-size: 6rem;
+    margin:10px;
+}
+
+p{
+    color:white;
+    margin:10px;
+}
+
+body{
+    background: grey;
+}
+
+.earth{
+    border:10px solid white;
+    border-radius: 50%;
+}
+
+.moon{
+    border:10px solid white;
+    border-radius: 50%;  
+}
