@@ -32,10 +32,11 @@ body{
 }
 
 .moon{
-     
+   margin-top: 6rem;  
 }
 
 .moonSelected{
     border:10px solid white;
-    border-radius: 50%;   
+    border-radius: 50%; 
+    margin-top: 6rem;    
 }
