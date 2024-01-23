@@ -7,23 +7,35 @@ h1{
     color:white;
     font-size: 6rem;
     margin:10px;
+    margin: auto;
 }
 
 p{
     color:white;
     margin:10px;
+    font-size: 1.5rem;
+    margin: auto;
 }
 
 body{
     background: grey;
 }
 
-.earth{
+.earthAndMoon{
+    display: flex;
+    margin:auto;
+}
+
+.earthSelected{
     border:10px solid white;
     border-radius: 50%;
 }
 
 .moon{
+     
+}
+
+.moonSelected{
     border:10px solid white;
-    border-radius: 50%;  
+    border-radius: 50%;   
 }
