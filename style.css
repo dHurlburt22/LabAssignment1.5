@@ -7,23 +7,27 @@ h1{
     color:white;
     font-size: 6rem;
     margin:10px;
-    margin: auto;
+    margin-left:20rem;
+    margin-right:20rem;
+
 }
 
 p{
     color:white;
     margin:10px;
     font-size: 1.5rem;
-    margin: auto;
+    margin-left:20rem;
+    margin-right:20rem;
 }
 
 body{
-    background: grey;
+    background: rgb(64, 64, 64);
 }
 
 .earthAndMoon{
     display: flex;
-    margin:auto;
+    justify-content: space-evenly;
+    margin-top:6rem;
 }
 
 .earthSelected{
@@ -32,11 +36,11 @@ body{
 }
 
 .moon{
-   margin-top: 6rem;  
+   margin-top: 7rem;  
 }
 
 .moonSelected{
     border:10px solid white;
     border-radius: 50%; 
-    margin-top: 6rem;    
+    margin-top: 7rem;    
 }
